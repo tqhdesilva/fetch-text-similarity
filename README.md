@@ -13,12 +13,12 @@ similarity('hello world', 'goodbye world')
 
 # Build the docker image
 Run the following docker command to build the image locally:
-```
+```bash
 docker build -t fetch-text-similarity:1.0 .
 ```
 
 The following command will serve the FastAPI application on port `8000` locally:
-```
+```bash
 docker run --rm -it -p 8000:80 fetch-text-similarity:1.0
 ```
 
