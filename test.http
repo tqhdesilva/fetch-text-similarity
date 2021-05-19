@@ -1,0 +1,19 @@
+POST http://localhost:8000/similarity
+content-type: application/json
+
+{
+    "text1": "hello world!",
+    "text2": "goodbye cruel world!"
+}
+
+###
+POST http://localhost:8000/similarity
+content-type: application/json
+
+{
+    "text1": "hello world!",
+    "text2": "goodbye computer"
+}
+
+###
+GET http://localhost:8000/health
